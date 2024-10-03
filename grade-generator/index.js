@@ -1,3 +1,5 @@
+// this function is used to get the grade
+
 function getGrade(marks) {
     if (marks > 79) {
         return 'A';
@@ -11,7 +13,7 @@ function getGrade(marks) {
         return 'E';
     }
 }
-
+// prompts the user to enter a grade.
 function promptUser() {
     const readline = require('readline').createInterface({
         input: process.stdin,

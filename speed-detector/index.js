@@ -1,3 +1,5 @@
+// the function used to calculate the demerit points
+
 function calculateDemeritPoints(speed) {
     const speedLimit = 70;
     
@@ -9,6 +11,7 @@ function calculateDemeritPoints(speed) {
     }
 }
 
+// prompts the driver to input the speed 
 function promptUser() {
     const readline = require('readline').createInterface({
         input: process.stdin,
